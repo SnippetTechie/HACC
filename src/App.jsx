@@ -1,22 +1,19 @@
 import { useState } from 'react'
-import { Routes,Route } from 'react-router-dom';
-import './App.css'
+import Hackathon from './pages/Hackathon/Hackathon'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div className="app">
     <Navbar/>
-    <div>
-    <Routes>
-      <Route path='/' element={ <Home/> }/>
-      <Route path='/hackathon' element={ <Hackathon/> }/>
-      <Route path='/coding' element={ <Coding/> }/>
-      <Route path="/team" element={<Team/>}/>
-    </Routes>
-    </div>
+    <Hackathon/>
     <Footer/>
+    </div>
     </>
   )
 }

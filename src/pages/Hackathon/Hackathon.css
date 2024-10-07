@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    background-color: black;
+    border-top: 1px solid #2A9DF4;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.header .logo{
+    padding: 50px;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid #2A9DF4;
+    border-left: 1px solid #2A9DF4;
+    border-bottom-right-radius: 0;
+}
+.header .logo h1{
+    font-size: min(10vw,100px);
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(#2A9DF4, #0063D1);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.header .logo p{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.header .image{
+    border-radius: 20px; 
+    padding: 0px 10px 0px 10px; 
+    width: 50%; 
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid #2A9DF4;
+    border-bottom: 1px solid #2A9DF4;
+}
+
+.header .image img{
+    width: 100%; 
+    height: auto; 
+    max-width: 500px; 
+    max-height: 500px; 
+}
+
+.events{
+    border-right: 1px solid #2A9DF4;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    margin-left: 5px;
+    width: 50%;
+    min-height:195px;
+    padding: 20px;
+    margin-top: -205px;
+}
+.events .hackathons{
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #1e3753;
+}
+.events .hackathons h1{
+    border-radius: 20px;
+    color: red;
+    font-size: 25px;
+}
+
+.events .hackathons ul{
+    text-align: start;
+}
+.events .hackathons li{
+    margin-top: 5px;
+    color:aliceblue;
+    font-size: 25px;
+    list-style: none;
+}
+
+.events .hackathons button{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    outline: none;
+    transform: none;
+}
+
+.events .hackathons .submit{
+    width: 100px;
+    background-color: greenyellow;
+}
+
+@media(max-width: 1645px){
+    .events{
+        margin-top: -178px;
+    }
+    .header .logo{
+        border-bottom-right-radius: 0;
+    }
+
+    .events{
+        min-height: 150px;
+        border-bottom-right-radius: 0;
+    }
+}
+@media(max-width: 1100px){
+    .header .logo h1{
+        font-size: 80px;
+    }
+}
+
+@media(max-width:1200px){
+    .header .logo{
+        border: 0px;
+        margin-left: 5px;
+    }
+    
+    .events{
+        margin-top: 20px;
+        width: 100%;
+        border: 1px solid #2A9DF4;
+        border-radius: 20px;
+    }
+
+    .header .image{
+        border: 0px;
+    }
+
+    .header{
+        border: 1px solid #2A9DF4;
+    }
+}
+
+@media(max-width: 920px){
+    .header{
+        flex-direction: column-reverse;
+    }
+
+    .header .logo{
+        width: 90%;
+        margin-bottom: 1px;
+    }
+
+    .header .image{
+        width: 90%;
+    }
+
+    .header .image img{
+        max-width: 700px;
+        max-height: 700px;
+    }
+}
+
+@media(max-width: 510px){
+    .header{
+        gap: 0px;
+    }
+
+    .header .logo{
+        padding-top: 10px;
+    }
+    .header .logo h1{
+        font-size: 50px;
+    }
+
+    .header .logo p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 370px){
+    .header .logo h1{
+        font-size: 40px;
+    }
+
+    .header .logo p{
+        font-size: 15px;
+    }
+}
