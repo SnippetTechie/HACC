@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {insta, linkedIn, logo, whatsapp} from '../../assets/assets'
+import assets from '../../assets/assets'
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer-content'>
       <div className="footer-content-left">
         <div className="logo">
-        <img src={logo} alt="" />
+        <img src={assets.logo} alt="" />
         <h1>HACC</h1>
         </div>
         <p>Connect, Learn, Grow!</p>
@@ -16,9 +16,9 @@ const Footer = () => {
     <div className="footer-content-center">
         <h1>Socials</h1>
         <ul>
-            <li><img src={linkedIn} alt="" /></li>
-            <li><img src={insta} alt="" /></li>
-            <li><img src={whatsapp} alt="" /></li>
+            <li><img src={assets.linkedIn} alt="" /></li>
+            <li><img src={assets.insta} alt="" /></li>
+            <li><img src={assets.whatsapp} alt="" /></li>
         </ul>
     </div>
     <div className="footer-content-right">

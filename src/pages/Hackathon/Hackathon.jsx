@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hackathon.css'
-import {comp} from '../../assets/assets'
+import assets from '../../assets/assets'
 
 
 const Hackathon = () => {
@@ -12,7 +12,7 @@ const Hackathon = () => {
             <p>Coding season is coming! Prepare for the ultimate Hackathon!</p>
         </div>
         <div className="image">
-            <img src={comp} alt="" />
+            <img src={assets.comp} alt="" />
         </div>
     </div>
     <div className="events">

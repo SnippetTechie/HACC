@@ -50,6 +50,11 @@
     align-items: center; 
 }
 
+.navbar .navs ul li a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
 .navbar .navs .active{
     border-bottom: 2px solid #2A9DF4;
 }

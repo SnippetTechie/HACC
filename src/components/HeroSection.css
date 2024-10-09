@@ -1,0 +1,93 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .hero-content {
+    max-width: 90%;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero p {
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    background-color: black;
+    padding: 12px 24px;
+    border: 2px solid #2A9DF4;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .hero-content a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  
+  .hero-button:hover {
+    background-color: #1c7ed6;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    margin-top: 30px;
+    color: white;
+  }
+  
+  .social-media hr { /* Makes the hr stretch across the available space */
+    height: 1px;
+    width: 50px;
+    border: none;
+    background-color: #ccc; /* Adjust this to your preferred color */
+    margin: 0 5px; /* Space around the hr */
+  }
+  
+  .social-icons ul {
+    display: flex; /* Flexbox for horizontal icon alignment */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .social-icons ul li {
+    align-items: center;
+    margin-right: 10px; /* Adds space between the icons */
+    margin-bottom: 0;
+  }
+  
+  .social-icons ul img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .hero-image img {
+    width: 400px;
+    height: 400px;
+  }
+
+  @media(max-width: 720px){
+    .hero-image{
+      display: none;
+    }
+  }
+
+  @media(max-width: 475px){
+    .social-media span{
+      font-size: 12px;
+    }
+  }
+  

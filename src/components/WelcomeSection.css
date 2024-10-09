@@ -1,0 +1,44 @@
+.welcome {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #2A9DF4;
+    width: 90vw;
+    color: white;
+  }
+  
+  .highlight { 
+    font-weight: bold;
+    color:#2A9DF4;
+    font-size: 20px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .feature-item {
+    text-align: center;
+  }
+  
+  .feature-item img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .feature-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+
+  .feature-item p{
+    margin: 2px;
+    margin-bottom: 10px;
+  }
+  
