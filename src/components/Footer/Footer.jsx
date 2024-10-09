@@ -16,9 +16,9 @@ const Footer = () => {
     <div className="footer-content-center">
         <h1>Socials</h1>
         <ul>
-            <li><img src={assets.linkedIn} alt="" /></li>
-            <li><img src={assets.insta} alt="" /></li>
-            <li><img src={assets.whatsapp} alt="" /></li>
+            <li><a href="https://www.linkedin.com/company/hacc-thehackathon-and-coding-club/"><img src={assets.linkedIn} alt="" /></a></li>
+            <li><a href="https://www.instagram.com/the_hacc/profilecard/?igsh=MW43aThmZGx1eXh6YQ=="><img src={assets.insta} alt="" /></a></li>
+            <li><a href="https://chat.whatsapp.com/FRXKH7xvePHHRZSkVyMA82"><img src={assets.whatsapp} alt="" /></a></li>
         </ul>
     </div>
     <div className="footer-content-right">

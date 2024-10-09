@@ -5,7 +5,25 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const [menu,setMenu]=useState("Home");
+  let page="";
+  switch (location.pathname) {
+    case '/':
+      page = "Home";
+      break;
+    case '/hackathon':
+      page = "Hackathon";
+      break;
+    case '/coding':
+      page = "Coding";
+      break;
+    case '/team':
+      page = "Team";
+      break;
+    default:
+      page = "Unknown"; 
+  }
+  const [menu,setMenu]=useState(page);
+    
 
   return (
     <div className='navbar'>

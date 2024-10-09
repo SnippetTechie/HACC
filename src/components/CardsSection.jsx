@@ -4,7 +4,7 @@ import assets from '../assets/assets'
 
 const CardsSection = () => {
   return (
-    <section className="cards">
+    <section id="cards" className="cards">
       <div className="card">
       <p className="card-title">Hackathons</p>
         <img src={assets.Hackathon} alt="Hackathons illustration" />
