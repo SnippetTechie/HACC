@@ -15,11 +15,13 @@ import competitions from './competitions.jpeg'
 import community from './community.png'
 import workshop from './workshop.png'
 import mentoring from './mentoring.png'
+import braces from './braces.png'
 
 import ankana from './team/Ankana_Roy.jpg'
 import anushka from './team/Anushka_Roy.jpg'
 import chanakya from './team/Chanakya_Kasa.jpg'
 import deekshitha from './team/Deekshitha_R.jpg'
+import deepthi from './team/Deepthi_P.jpg'
 import gauri from './team/Gauri_Sahni.jpg'
 import harshita from './team/Harshita_Harihar.jpg'
 import kashyap from './team/B_Sai_Kashyap.jpg'
@@ -42,4 +44,4 @@ import venkateshwara from './team/Venkateshwara_Reddy.jpg'
 import yash from './team/Yash_Agarwal.jpg'
 
 
-export default { profile_icon,comp, logo, bg, insta, whatsapp, linkedIn, github, header, Hackathon, comingsoon, Coding, competitions, community, workshop, mentoring, ankana, anushka, chanakya, deekshitha, gauri, harshita,kashyap , lohith, mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, monish, anjum, umaiza,vivith , venkateshwara, yash }
+export default { profile_icon,comp, logo, bg, insta, whatsapp, linkedIn, github, header, Hackathon, comingsoon, Coding, competitions, community, workshop, mentoring, braces, ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita,kashyap , lohith, mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, monish, anjum, umaiza,vivith , venkateshwara, yash }

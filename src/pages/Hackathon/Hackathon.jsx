@@ -19,8 +19,10 @@ const Hackathon = () => {
         <div className="hackathons">
             <h1>Upcoming Hackathons</h1>
             <ul>
-                <li><button>8 Nov</button>Internal hackathon<button className="submit">Apply</button></li>
-                <li><button>24 Oct</button>Atria hackathon<button className="submit">Apply</button></li>
+                <li><button className='date'>8 Nov</button>Internal hackathon<a href='https://forms.office.com/r/r5Ar4VtLra'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>24 Oct</button>Atria hackathon<button className="submit">Apply</button></li>
+                <li><button className='date'>8 Nov</button>Internal hackathon<a href='https://forms.office.com/r/r5Ar4VtLra'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>24 Oct</button>Atria hackathon<button className="submit">Apply</button></li>
             </ul>
         </div>
     </div>

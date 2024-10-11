@@ -9,9 +9,8 @@ import Team from './pages/Team/Team';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
-  const location = useLocation(); // Use location to track the current path
+  const location = useLocation(); 
 
-  // Function to determine the initial menu state based on the current path
   const getMenuName = (path) => {
     switch (path) {
       case '/':
@@ -27,12 +26,10 @@ function App() {
     }
   };
 
-  const [menu, setMenu] = useState(getMenuName(location.pathname)); // Initialize menu based on the path
-
-  // Update menu state when the route changes
+  const [menu, setMenu] = useState(getMenuName(location.pathname)); 
+  
   useEffect(() => {
     setMenu(getMenuName(location.pathname));
-    console.log(location.pathname)
   }, [location.path]);
 
   useEffect(() => {

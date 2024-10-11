@@ -24,9 +24,8 @@ const Footer = () => {
     <div className="footer-content-right">
         <h1>Contacts</h1>
         <ul>
-            <li>Student coordinator</li>
-            <li>Student coordinator</li>
-            <li>Student coordinator</li>
+            <li>Lohith P: +91-7483856694</li>
+            <li>Vivith: +91-6366335543</li>
         </ul>
     </div>
     </div>

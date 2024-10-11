@@ -7,11 +7,11 @@ const PE = () => {
       <div className="line1">
         <div className="member">
           <h1>Member</h1>
-          <img src={assets.profile_icon} alt="" />
+          <img src={assets.deepthi} alt="" />
           <p>Deepthi P</p>
           <ul>
-            <li><a href=""><img src={assets.linkedIn} alt="" /></a></li>
-            <li><a href=""><img src={assets.github} alt="Github" /></a></li>
+            <li><a href="https://www.linkedin.com/in/deepthi-p-6a0490313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src={assets.linkedIn} alt="" /></a></li>
+            <li><a href="https://github.com/Deepthi11022205"><img src={assets.github} alt="Github" /></a></li>
           </ul>
         </div>
         <div className="member">
