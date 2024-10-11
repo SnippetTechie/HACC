@@ -19,6 +19,7 @@
 
 .member ul li{
     list-style: none;
+    display:inline;
 }
 
 .member ul li img{
