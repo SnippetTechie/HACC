@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom'; // Import useLocation
+import { useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Hackathon from './pages/Hackathon/Hackathon';
-import Coding from './pages/Coding/Coding'; // Correct path
+import Coding from './pages/Coding/Coding'; 
 import Team from './pages/Team/Team';
 import { Routes, Route } from 'react-router-dom';
+import './App.css';
 
 
 function App() {

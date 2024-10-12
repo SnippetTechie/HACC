@@ -1,5 +1,5 @@
 .cards {
-  width: 90vw;
+  width: 100%;
   justify-content: center;
   background: black;
   display: flex;
@@ -8,7 +8,6 @@
   padding: 0 80px;
   margin-top: 50px;
   color: white;
-
 }
 
 .card {
