@@ -52,15 +52,57 @@
 
 .navbar .navs ul li a {
     text-decoration: none; 
-    color: inherit; 
+    color: rgb(177, 169, 169); 
+}
+
+.navbar .navs ul li label{
+    display: none;
 }
 
 .navbar .navs .active{
     border-bottom: 2px solid #2A9DF4;
 }
 
-@media(max-width: 720px){
-    .navs{
+#check{
+    display:none;
+}
+
+.btn_one{
+    display: none;
+}
+
+@media(max-width: 650px){
+    .navbar .navs ul{
+        position: relative;
+        z-index: 1;
+        display: block;
+        max-height: fit-content;
+    }
+
+    .navbar .navs{
         display: none;
     }
+
+    .navbar .navs ul li label{
+        display: block;
+    }
+
+    .btn_one label img{
+        margin-top: 5px;
+        height:30px;
+    }
+
+    .btn_one{
+        display: block;  
+        position: relative;
+    }
+
+    #check:checked ~ .navs{
+        display: block;
+    }
+
+    #check:checked ~ .btn_one{
+        display: none;
+    }
+
 }
