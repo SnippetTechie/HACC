@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Hackathon from './pages/Hackathon/Hackathon'
-import Coding from './assets/assets'
+import Coding from './pages/Coding/Coding'
 import Team from './pages/Team/Team'
 import {Routes,Route} from 'react-router-dom'
 
