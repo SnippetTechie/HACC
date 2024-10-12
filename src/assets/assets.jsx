@@ -15,8 +15,9 @@ import competitions from './competitions.jpeg'
 import community from './community.png'
 import workshop from './workshop.png'
 import mentoring from './mentoring.png'
-import braces from './braces.png'
+import braces from './braces.png' // from main
 
+// Team images from main branch
 import ankana from './team/Ankana_Roy.jpg'
 import anushka from './team/Anushka_Roy.jpg'
 import chanakya from './team/Chanakya_Kasa.jpg'
@@ -32,7 +33,7 @@ import pritam from './team/Pritam_Dhar.jpg'
 import rachan from './team/RachanMurthy.jpeg'
 import rahul from './team/Rahul_Raj.jpeg'
 import rakshitha from './team/Rakshitha_S.jpeg'
-import satwik from './team/SATWIK _M_BADIGER.jpg'
+import satwik from './team/SATWIK_M_BADIGER.jpg'
 import satyam from './team/Satyam_Gupta.png'
 import sharlet from './team/Sharlet_Alex.jpg'
 import tarun from './team/Tarun.png'
@@ -43,5 +44,18 @@ import vivith from './team/Vivith_Rajiv_Kanchi.jpg'
 import venkateshwara from './team/Venkateshwara_Reddy.jpg'
 import yash from './team/Yash_Agarwal.jpg'
 
+// New assets from feature/codingPage
+import codingBanner from './codingPageHeader.png'
+import codingBanner2 from './codingPageHeader2.png'
+import CodeClash from './CodeClash.png'
+import Quiz from './Quiz.png'
 
-export default { profile_icon,comp, logo, bg, insta, whatsapp, linkedIn, github, header, Hackathon, comingsoon, Coding, competitions, community, workshop, mentoring, braces, ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita,kashyap , lohith, mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, monish, anjum, umaiza,vivith , venkateshwara, yash }
+export default { 
+  profile_icon, comp, logo, bg, insta, whatsapp, linkedIn, github, header, 
+  Hackathon, comingsoon, Coding, competitions, community, workshop, mentoring, braces, 
+  ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita, kashyap, lohith, 
+  mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, 
+  monish, anjum, umaiza, vivith, venkateshwara, yash, 
+  codingBanner, codingBanner2, CodeClash, Quiz 
+}
+

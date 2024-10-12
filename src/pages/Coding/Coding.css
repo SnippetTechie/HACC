@@ -1,0 +1,212 @@
+.coding-header {
+    margin-top: 20px;
+    display: flex;
+    background-color: #0a0b1e;
+    color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #2A9DF4;
+    border-radius: 20px;
+    padding: 50px;
+    position: relative;
+}
+
+.upcoming-contests * {
+    background-color: inherit;
+}
+
+.coding-header .coding-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(1.5);
+    transform-origin: top right;
+    background-color: transparent;
+}
+
+.coding-banner {
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.coding-header .coding-image-2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: scale(1.5);
+    transform-origin: bottom left;
+    background-color: transparent;
+}
+
+.coding-header button {
+    background-color: #1c7ed6;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.coding-header button:hover {
+    background-color: #1565c0;
+}
+
+.coding-banner h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+}
+
+.button-group {
+    margin: 40px 0;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.event-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.event-info span {
+    font-size: 25px;
+    margin: 0 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.event-info button {
+    background-color: #66FF00;
+    transition: background-color 0.3s ease;
+}
+
+.event-info button:hover {
+    background-color: #4cd900;
+}
+
+.upcoming-contests {
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.upcoming-contests h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.upcoming-contests .contest-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+
+@media (max-width: 1900px) {
+    .coding-header .coding-image-2 {
+        left: 0;
+        opacity: 0.4;
+        z-index: -1;
+        transform-origin: bottom right;
+    }
+
+    .coding-banner {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .coding-header .coding-image {
+        opacity: 0.4;
+        z-index: 1;
+    }
+
+    .upcoming-contests h1 {
+        font-size: 40px;
+    }
+
+    .upcoming-contests .contest-card {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .coding-header .coding-image-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .coding-banner h1 {
+        font-size: 45px;
+    }
+
+    .coding-banner button {
+        font-size: 20px;
+    }
+
+    .coding-header .coding-image,
+    .coding-header .coding-image-2 {
+        transform: scale(1);
+    }
+
+    .event-info span {
+        font-size: 15px;
+    }
+
+    .coding-header {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .coding-banner h1 {
+        font-size: 35px;
+    }
+    
+    .coding-banner button {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+
+    .upcoming-contests h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .coding-banner h1 {
+        font-size: 25px;
+    }
+    
+    .coding-banner button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .coding-banner span {
+        font-size: 12px;
+    }
+
+    .upcoming-contests h1 {
+        font-size: 25px;
+    }
+}

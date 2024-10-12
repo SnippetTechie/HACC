@@ -1,0 +1,111 @@
+/* RedirectCard.css */
+.redirectcard {
+  background-color: #0d1321;
+  border-radius: 15px;
+  padding: 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+  border: 1px solid #2A9DF4;
+}
+
+.redirectcard-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redirectcard-header img {
+  width: 200px;
+  height: auto;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.redirectcard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  gap: 20px;
+}
+
+.redirectcard-content h2 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta-button {
+  background-color: #32cd32;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 35px;
+  color: #0d1321;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta-button:hover {
+  background-color: #28a745;
+}
+
+@media (max-width: 1200px) {
+  .redirectcard-content h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .redirectcard {
+    flex-direction: column;
+  }
+
+  .cta-button {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .redirectcard-content h2 {
+    font-size: 30px;
+  }
+
+  .cta-button {
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .redirectcard {
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .redirectcard-header img {
+    transform: scale(0.8);
+  }
+
+  .redirectcard-content h2 {
+    font-size: 25px;
+  }
+
+  .cta-button {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
