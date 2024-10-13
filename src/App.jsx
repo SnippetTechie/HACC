@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Hackathon from './pages/Hackathon/Hackathon';
 import Coding from './pages/Coding/Coding'; 
 import Team from './pages/Team/Team';
+import NotFound from './pages/NotFound/NotFound';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -43,7 +44,7 @@ function App() {
           <Route path='/hackathon' element={<Hackathon />} />
           <Route path='/coding' element={<Coding />} />
           <Route path='/team' element={<Team />} />
-          <Route path="*" element={<Home />} /> {/* Fallback Route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
