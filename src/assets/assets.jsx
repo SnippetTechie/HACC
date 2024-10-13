@@ -5,7 +5,7 @@ import insta from './instagram.png'
 import whatsapp from './whats-app.png'
 import linkedIn from './linked-in.png'
 import profile_icon from './profile_icon.png'
-import github from './github.png'
+import github from './Github.png'
 
 import header from './header.png'
 import Hackathon from './isometric-design-business-people-meeting.png'
