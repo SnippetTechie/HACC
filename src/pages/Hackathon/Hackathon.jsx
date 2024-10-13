@@ -19,10 +19,10 @@ const Hackathon = () => {
         <div className="hackathons">
             <h1>Upcoming Hackathons</h1>
             <ul>
-                <li><button className='date'>8 Nov</button>Internal hackathon<a href='https://forms.office.com/r/r5Ar4VtLra'><button className="submit">Apply</button></a></li>
-                <li><button className='date'>24 Oct</button>Atria hackathon<button className="submit">Apply</button></li>
-                <li><button className='date'>8 Nov</button>Internal hackathon<a href='https://forms.office.com/r/r5Ar4VtLra'><button className="submit">Apply</button></a></li>
-                <li><button className='date'>24 Oct</button>Atria hackathon<button className="submit">Apply</button></li>
+                <li><button className='date'>15 Oct</button>HACC Hackathon<a href='https://forms.office.com/r/r5Ar4VtLra'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>15 Oct</button>Shridevi Hackathon<a href='https://hackathon.shritek.com/'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>18 Oct</button>MINDSPARK'24<a href='https://www.mind-spark.org/events/robotica/'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>20 Oct</button>Hack Overflow 2.0<a href='https://rns-hackoverflow-2.devfolio.co/'><button className="submit">Apply</button></a></li>
             </ul>
         </div>
     </div>
