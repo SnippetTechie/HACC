@@ -47,7 +47,6 @@ const PRM = () => {
           <ul>
             <li><a href="https://www.linkedin.com/in/sp-monish-31a73a295
 "><img src={assets.linkedIn} alt="" /></a></li>
-            <li><a href=""><img src={assets.github} alt="Github" /></a></li>
           </ul>
         </div>
         <div className="member">

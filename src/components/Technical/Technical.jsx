@@ -21,7 +21,7 @@ const Technical = () => {
           <p>Pritam Dhar</p>
           <ul>
             <li><a href="www.linkedin.com/in/pritam-dhar-300b5725b"><img src={assets.linkedIn} alt="" /></a></li>
-            <li><a href=""><img src={assets.github} alt="Github" /></a></li>
+            <li><a href="https://github.com/hashtagp"><img src={assets.github} alt="Github" /></a></li>
           </ul>
         </div>
         <div className="member">

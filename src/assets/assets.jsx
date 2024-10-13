@@ -42,6 +42,7 @@ import anjum from './team/T_S_ANJUM_KAUSAR.jpeg'
 import umaiza from './team/Umaiza_Fathima.jpeg'
 import vivith from './team/Vivith_Rajiv_Kanchi.jpg'
 import venkateshwara from './team/Venkateshwara_Reddy.jpg'
+import venkatesh from './team/Venkatesh_S.jpg'
 import yash from './team/Yash_Agarwal.jpg'
 
 // New assets from feature/codingPage
@@ -55,7 +56,7 @@ export default {
   Hackathon, comingsoon, Coding, competition, community, workshop, mentoring, braces, 
   ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita, kashyap, lohith, 
   mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, 
-  monish, anjum, umaiza, vivith, venkateshwara, yash, 
+  monish, anjum, umaiza, vivith, venkateshwara, venkatesh, yash, 
   codingBanner, codingBanner2, CodeClash, Quiz 
 }
 

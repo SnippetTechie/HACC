@@ -87,7 +87,6 @@ const Team = () => {
           <ul>
             <li><a href="http://linkedin.com/in/umaiza-fathima-4247b9329
 "><img src={assets.linkedIn} alt="LinkedIn" /></a></li>
-            <li><a href=""><img src={assets.github} alt="Github" /></a></li>
           </ul>
         </div>
       </div>

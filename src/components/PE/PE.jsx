@@ -21,7 +21,6 @@ const PE = () => {
           <ul>
             <li><a href="https://www.linkedin.com/in/gauri-sahni-338109228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 "><img src={assets.linkedIn} alt="" /></a></li>
-            <li><a href=""><img src={assets.github} alt="Github" /></a></li>
           </ul>
         </div>
         <div className="member">
