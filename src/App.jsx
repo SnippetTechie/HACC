@@ -9,7 +9,6 @@ import Team from './pages/Team/Team';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
-
 function App() {
   const location = useLocation(); 
 
@@ -32,12 +31,8 @@ function App() {
   
   useEffect(() => {
     setMenu(getMenuName(location.pathname));
-  }, [location.path]);
-
-  useEffect(() => {
-    setMenu(getMenuName(location.pathname));
     console.log(location.pathname)
-  }, []);
+  }, [location.pathname]);
 
   return (
     <>
@@ -48,6 +43,7 @@ function App() {
           <Route path='/hackathon' element={<Hackathon />} />
           <Route path='/coding' element={<Coding />} />
           <Route path='/team' element={<Team />} />
+          <Route path="*" element={<Home />} /> {/* Fallback Route */}
         </Routes>
         <Footer />
       </div>
