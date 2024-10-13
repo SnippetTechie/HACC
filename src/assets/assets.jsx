@@ -3,7 +3,7 @@ import logo from './logo.png'
 import bg from './noise-texture.png'
 import insta from './instagram.png'
 import whatsapp from './whats-app.png'
-import linkedIn from './Linked-in.png'
+import linkedIn from './linked-in.png'
 import profile_icon from './profile_icon.png'
 import github from './github.png'
 
