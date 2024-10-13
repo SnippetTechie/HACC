@@ -15,14 +15,14 @@ const Coding = () => {
             <button className="btn leaderboard">LeaderBoard</button>
           </div>
           <div className="event-info">
-            <span className="event-date">14 November 2024</span>
-            <button className="btn register">Register Now</button>
+            <span className="event-date">15 October 2024</span>
+            <a href="#upcoming-contests"><button className="btn register">Register Now</button></a>
           </div>
         </div>
         <img src={assets.codingBanner} alt="Decorative" className="coding-image" />
       </div>
 
-      <div className="upcoming-contests">
+      <div id="upcoming-contests" className="upcoming-contests">
         <h1>
           Upcoming Contests <span>→</span>
         </h1>

@@ -87,12 +87,16 @@
     background-color: transparent;
 }
 
-.event-info button {
+.event-info a{
+    border-radius: 30px;
+}
+
+.event-info a button {
     background-color: #66FF00;
     transition: background-color 0.3s ease;
 }
 
-.event-info button:hover {
+.event-info a button:hover {
     background-color: #4cd900;
 }
 
