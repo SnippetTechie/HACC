@@ -1,5 +1,6 @@
 import React from 'react';
 import './MemberCard.css';
+import assets from '../../assets/assets';
 
 const MemberCard = ({ role, name, image, linkedin, github }) => (
   <div className="member">

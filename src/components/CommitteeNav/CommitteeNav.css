@@ -1,0 +1,25 @@
+.committee-nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.nav-button {
+  background-color: #2A9DF4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #1565c0;
+}
+
+.nav-button.active {
+  background-color: #0a0b1e;
+}
