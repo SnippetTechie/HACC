@@ -21,6 +21,7 @@
 .redirectcard-header img {
   width: 200px;
   height: auto;
+  border-radius: 30px;
 }
 
 .arrow {

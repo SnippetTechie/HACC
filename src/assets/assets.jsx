@@ -50,6 +50,10 @@ import codingBanner from './codingPageHeader.png'
 import codingBanner2 from './codingPageHeader2.png'
 import CodeClash from './CodeClash.png'
 import Quiz from './Quiz.png'
+import newbie from './newbie.jpeg'
+import intermediate from './intermediate.jpeg'
+import developer from './developer.jpeg'
+
 
 export default { 
   profile_icon, comp, logo, bg, insta, whatsapp, linkedIn, github, header, 
@@ -57,6 +61,6 @@ export default {
   ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita, kashyap, lohith, 
   mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, 
   monish, anjum, umaiza, vivith, venkateshwara, venkatesh, yash, 
-  codingBanner, codingBanner2, CodeClash, Quiz 
+  codingBanner, codingBanner2, CodeClash, Quiz, newbie, intermediate, developer
 }
 
