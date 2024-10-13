@@ -12,8 +12,8 @@ const CardsSection = () => {
       <p className="card-title">Hackathons</p>
         <img src={assets.Hackathon} alt="Hackathons illustration" />
       </div>
-      <div className="card">
-      <p onClick={()=>navigate("/coding")} className="card-title">Coding Camp</p>
+      <div onClick={()=>navigate("/coding")} className="card">
+      <p className="card-title">Coding Camp</p>
         <img src={assets.Coding} alt="Coding Camp illustration" />
       </div>
       <div className="card">
