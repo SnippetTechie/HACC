@@ -10,7 +10,7 @@ const WelcomeSection = () => {
       </p>
       <div className="features">
         <div className="feature-item">
-          <img src={assets.competitions} alt="" />
+          <img src={assets.competition} alt="" />
           <p className="feature-title">competition</p>
           <p>Build amazing projects.</p>
         </div>

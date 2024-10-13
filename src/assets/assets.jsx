@@ -11,7 +11,7 @@ import header from './header.png'
 import Hackathon from './isometric-design-business-people-meeting.png'
 import comingsoon from './modern-coming-soon-poster-with-stay-tuned-message.png'
 import Coding from './pair-programming-concept-illustration.png'
-import competitions from './competitions.jpeg'
+import competition from './competition.png'
 import community from './community.png'
 import workshop from './workshop.png'
 import mentoring from './mentoring.png'
@@ -52,7 +52,7 @@ import Quiz from './Quiz.png'
 
 export default { 
   profile_icon, comp, logo, bg, insta, whatsapp, linkedIn, github, header, 
-  Hackathon, comingsoon, Coding, competitions, community, workshop, mentoring, braces, 
+  Hackathon, comingsoon, Coding, competition, community, workshop, mentoring, braces, 
   ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita, kashyap, lohith, 
   mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, 
   monish, anjum, umaiza, vivith, venkateshwara, yash, 
