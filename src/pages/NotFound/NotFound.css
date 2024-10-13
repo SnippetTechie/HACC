@@ -1,0 +1,77 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.not-found p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  background-color: transparent;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #1c7ed6;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.not-found a:hover {
+  background-color: #1565c0;
+}
+
+@media (max-width: 800px) {
+  .not-found h1 {
+    font-size: 45px;
+  }
+
+  .not-found a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .not-found h1 {
+    font-size: 35px;
+  }
+  
+  .not-found a {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .not-found h1 {
+    font-size: 25px;
+  }
+  
+  .not-found a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .not-found p {
+    font-size: 15px;
+  }
+}
