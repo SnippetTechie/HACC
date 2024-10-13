@@ -6,18 +6,18 @@ import './Technical.css';
 const Technical = () => {
   const members = [
     {
-      role: 'Member',
-      name: 'Kasa Chanakya',
-      image: assets.chanakya,
-      linkedin: 'https://www.linkedin.com/in/kasa-chanakya',
-      github: 'https://github.com/chanakya29092004',
-    },
-    {
       role: 'Chair',
       name: 'Pritam Dhar',
       image: assets.pritam,
       linkedin: 'https://www.linkedin.com/in/pritam-dhar-300b5725b',
       github: 'https://github.com/hashtagp',
+    },
+    {
+      role: 'Member',
+      name: 'Kasa Chanakya',
+      image: assets.chanakya,
+      linkedin: 'https://www.linkedin.com/in/kasa-chanakya',
+      github: 'https://github.com/chanakya29092004',
     },
     {
       role: 'Member',

@@ -6,18 +6,18 @@ import './PRM.css';
 const PRM = () => {
   const members = [
     {
-      role: 'Member',
-      name: 'Ankana Roy',
-      image: assets.ankana,
-      linkedin: 'https://www.linkedin.com/in/ankana-roy',
-      github: 'https://github.com/ankana1705',
-    },
-    {
       role: 'Chair',
       name: 'Anushka Roy',
       image: assets.anushka,
       linkedin: 'https://www.linkedin.com/in/anushka-roy-3a239930b',
       github: 'https://github.com/anushkaaaRoy',
+    },
+    {
+      role: 'Member',
+      name: 'Ankana Roy',
+      image: assets.ankana,
+      linkedin: 'https://www.linkedin.com/in/ankana-roy',
+      github: 'https://github.com/ankana1705',
     },
     {
       role: 'Member',

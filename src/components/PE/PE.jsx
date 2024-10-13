@@ -6,18 +6,18 @@ import './PE.css';
 const PE = () => {
   const members = [
     {
-      role: 'Member',
-      name: 'Deepthi P',
-      image: assets.deepthi,
-      linkedin: 'https://www.linkedin.com/in/deepthi-p-6a0490313',
-      github: 'https://github.com/Deepthi11022205',
-    },
-    {
       role: 'Chair',
       name: 'Gauri Sahni',
       image: assets.gauri,
       linkedin: 'https://www.linkedin.com/in/gauri-sahni-338109228',
       github: '',
+    },
+    {
+      role: 'Member',
+      name: 'Deepthi P',
+      image: assets.deepthi,
+      linkedin: 'https://www.linkedin.com/in/deepthi-p-6a0490313',
+      github: 'https://github.com/Deepthi11022205',
     },
     {
       role: 'Member',
