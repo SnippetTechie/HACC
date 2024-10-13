@@ -28,6 +28,18 @@ const Coding = () => {
         </h1>
         <div className="contest-card">
           <RedirectCard
+            title="hacc-athon-1"
+            imageSrc={assets.newbie}
+          />
+          <RedirectCard
+            title="hacc-athon-2"
+            imageSrc={assets.intermediate}
+          />
+          <RedirectCard
+            title="hacc-athon-3"
+            imageSrc={assets.developer}
+          />
+          <RedirectCard
             title="Code Clash"
             imageSrc={assets.CodeClash}
           />
