@@ -32,12 +32,7 @@ function App() {
   
   useEffect(() => {
     setMenu(getMenuName(location.pathname));
-  }, [location.path]);
-
-  useEffect(() => {
-    setMenu(getMenuName(location.pathname));
-    console.log(location.pathname)
-  }, []);
+  }, [location.pathname]);
 
   return (
     <>
