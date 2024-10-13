@@ -1,7 +1,7 @@
 import React from 'react';
 import './RedirectCard.css';
 
-const RedirectCard = ({ title, buttonText = "Stay Tuned", imageSrc }) => {
+const RedirectCard = ({ title, buttonText = "Stay Tuned", imageSrc , registerLink="#" }) => {
   return (
     <div className="redirectcard">
       <div className="redirectcard-header">
@@ -9,7 +9,7 @@ const RedirectCard = ({ title, buttonText = "Stay Tuned", imageSrc }) => {
       </div>
       <div className="redirectcard-content">
         <h2>{title}</h2>
-        <button className="cta-button">{buttonText}</button>
+        <a href={registerLink}><button className="cta-button">{buttonText}</button></a>
       </div>
     </div>
   );
