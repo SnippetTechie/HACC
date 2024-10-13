@@ -7,8 +7,8 @@ const Committee_nav = ({Committee,SetCommittee}) => {
         <ul>
             <li onClick={()=>SetCommittee("Technical")} className={Committee=="Technical"?"active":null}>Technical</li>
             <li onClick={()=>SetCommittee("Program")} className={Committee=="Program"?"active":null}>Program</li>
-            <li onClick={()=>SetCommittee("PRM")} className={Committee=="PRM"?"active":null}>PR and Marketing</li>
-            <li onClick={()=>SetCommittee("PE")} className={Committee=="PE"?"active":null}>Post-Events</li>
+            <li onClick={()=>SetCommittee("PRM")} className={Committee=="PRM"?"active":null}>Marketing</li>
+            <li onClick={()=>SetCommittee("PE")} className={Committee=="PE"?"active":null}>PR and Post-Events</li>
         </ul>
       </div>
   )
