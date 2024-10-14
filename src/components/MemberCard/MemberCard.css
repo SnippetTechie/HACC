@@ -11,12 +11,12 @@
   align-items: center;
   gap: 5px;
   margin: 10px 0;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1); /* Green tint */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
 }
 
 .member:hover {
   transform: translateY(-10px);
-  box-shadow: 0 4px 20px rgba(42, 157, 244, 0.5), 0 0 15px rgba(0, 255, 0, 0.2); /* Green tint */
+  box-shadow: 0 4px 20px rgba(42, 157, 244, 0.5), 0 0 15px rgba(0, 255, 0, 0.2);
   filter: drop-shadow(0 0 10px rgba(42, 157, 244, 0.7));
 }
 
@@ -36,14 +36,14 @@
 }
 
 .member-info img:hover {
-  filter: drop-shadow(0 0 8px rgba(42, 157, 244, 0.8)) drop-shadow(0 0 5px rgba(0, 255, 0, 0.5)); /* Green tint */
+  filter: drop-shadow(0 0 8px rgba(42, 157, 244, 0.8)) drop-shadow(0 0 5px rgba(0, 255, 0, 0.5));
 }
 
 .member-info p {
   font-size: 1rem;
   margin-bottom: 10px;
   font-weight: 600;
-  color: #ffffff; /* Removed green tint */
+  color: #ffffff;
 }
 
 .member-links ul {
@@ -71,7 +71,7 @@
 
 .member-links ul li img:hover {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 5px rgba(42, 157, 244, 0.7)) drop-shadow(0 0 3px rgba(0, 255, 0, 0.5)); /* Green tint */
+  filter: drop-shadow(0 0 5px rgba(42, 157, 244, 0.7)) drop-shadow(0 0 3px rgba(0, 255, 0, 0.5));
 }
 
 @media (max-width: 800px) {
@@ -88,7 +88,7 @@
     max-width: 600px;
     padding: 20px;
     margin: 20px auto; 
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15); /* Green tint for larger card */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15);
   }
 
   .member-title {
@@ -148,7 +148,7 @@
   }
 
   .member-links ul li img:hover {
-    box-shadow: 0 0 20px rgba(42, 157, 244, 0.7), 0 0 10px rgba(0, 255, 0, 0.5); /* Green tint */
+    box-shadow: 0 0 20px rgba(42, 157, 244, 0.7), 0 0 10px rgba(0, 255, 0, 0.5);
   }
 }
 
@@ -159,7 +159,7 @@
     padding: 15px;
     gap: 10px;
     margin: 5px auto; 
-    box-shadow: 0 0 12px rgba(0, 255, 0, 0.12); /* Green tint for smaller card */
+    box-shadow: 0 0 12px rgba(0, 255, 0, 0.12);
   }
 
   .member-title h1 {
@@ -193,7 +193,7 @@
     width: 95%;
     max-width: 95%;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.1); /* Green tint for smallest card */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
   }
 
   .member-title h1 {
