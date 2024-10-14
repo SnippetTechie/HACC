@@ -14,12 +14,15 @@
   cursor: pointer;
   font-size: 1rem;
   transition: background-color 0.3s;
+  border-radius: 10px;  
 }
 
 .nav-button:hover {
-  background-color: #1565c0;
+  background-color: white;
+  color: #0a0b1e;
 }
 
 .nav-button.active {
-  background-color: #0a0b1e;
+  background-color: white;
+  color: #0a0b1e;
 }
