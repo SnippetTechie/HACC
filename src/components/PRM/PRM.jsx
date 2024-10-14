@@ -44,7 +44,7 @@ const PRM = () => {
 
   return (
     <div className="committee">
-      <h2>PRM Committee</h2>
+      <h2>Marketing Committee</h2>
       <div className="members-container">
         {members.map((member, index) => (
           <MemberCard

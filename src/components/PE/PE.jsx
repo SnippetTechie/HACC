@@ -44,7 +44,7 @@ const PE = () => {
 
   return (
     <div className="committee">
-      <h2>PE Committee</h2>
+      <h2>PR and Post Events Committee</h2>
       <div className="members-container">
         {members.map((member, index) => (
           <MemberCard
