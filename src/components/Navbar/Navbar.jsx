@@ -12,9 +12,9 @@ const Navbar = ({ menu, setMenu }) => {
   };
 
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <div className="logo">
-        <img src={assets.logo} alt="" />
+        <img src={assets.logo} alt="HACC Logo" />
         <h1>HACC</h1>
       </div>
       <input 
@@ -24,45 +24,41 @@ const Navbar = ({ menu, setMenu }) => {
         onChange={() => setIsChecked(!isChecked)} 
       />
       <div className="btn_one">
-        <label htmlFor="check">
-          <img src={assets.braces} alt="" />
+        <label htmlFor="check" aria-label="Toggle navigation">
+          <img src={assets.braces} alt="Menu Toggle" />
         </label>
       </div>
       <div className="navs">
         <ul>
-          <li>
-            <label htmlFor="check"><p>{"{"}</p></label>
-          </li>
+          <li><label htmlFor="check">&#123;</label></li>
           <li 
             onClick={() => handleMenuClick("Home")} 
             className={menu === "Home" ? "active" : ""}
           >
-            <Link to="/"><label htmlFor="check">Home</label></Link>
+            <Link to="/">Home</Link>
           </li>
           <li 
             onClick={() => handleMenuClick("Hackathon")} 
             className={menu === "Hackathon" ? "active" : ""}
           >
-            <Link to="/hackathon"><label htmlFor="check">Hackathon</label></Link>
+            <Link to="/hackathon">Hackathon</Link>
           </li>
           <li 
             onClick={() => handleMenuClick("Coding")} 
             className={menu === "Coding" ? "active" : ""}
           >
-            <Link to="/coding"><label htmlFor="check">Coding</label></Link>
+            <Link to="/coding">Coding</Link>
           </li>
           <li 
             onClick={() => handleMenuClick("Team")} 
             className={menu === "Team" ? "active" : ""}
           >
-            <Link to="/team"><label htmlFor="check">Team</label></Link>
+            <Link to="/team">Team</Link>
           </li>
-          <li>
-            <label htmlFor="check"><p>{"}"}</p></label>
-          </li>
+          <li><label htmlFor="check">&#125;</label></li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
