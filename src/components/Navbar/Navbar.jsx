@@ -17,20 +17,23 @@ const Navbar = ({ menu, setMenu }) => {
         <img src={assets.logo} alt="HACC Logo" />
         <h1>HACC</h1>
       </div>
+      
       <input 
         type="checkbox" 
         id="check" 
         checked={isChecked} 
         onChange={() => setIsChecked(!isChecked)} 
       />
+      
       <div className="btn_one">
         <label htmlFor="check" aria-label="Toggle navigation">
           <img src={assets.braces} alt="Menu Toggle" />
         </label>
       </div>
-      <div className="navs">
+      
+      <div className={`navs ${isChecked ? 'active' : ''}`}>
         <ul>
-          <li><label htmlFor="check">&#123;</label></li>
+          
           <li 
             onClick={() => handleMenuClick("Home")} 
             className={menu === "Home" ? "active" : ""}
@@ -55,7 +58,6 @@ const Navbar = ({ menu, setMenu }) => {
           >
             <Link to="/team">Team</Link>
           </li>
-          <li><label htmlFor="check">&#125;</label></li>
         </ul>
       </div>
     </nav>
