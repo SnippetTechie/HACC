@@ -28,19 +28,19 @@ const Coding = () => {
         </h1>
         <div className="contest-card">
           <RedirectCard
-            title="Hacc athon 1"
+            title="Hacc-athon 1"
             buttonText='Register'
             registerLink='https://www.hackerrank.com/the-hacc-athon-1'
             imageSrc={assets.newbie}
           />
           <RedirectCard
-            title="Hacc athon 2"
+            title="Hacc-athon 2"
             buttonText='Register'
             registerLink='https://www.hackerrank.com/the-hacc-athon-2'
             imageSrc={assets.intermediate}
           />
           <RedirectCard
-            title="Hacc athon 3"
+            title="Hacc-athon 3"
             buttonText='Register'
             registerLink='https://www.hackerrank.com/the-hacc-athon-3'
             imageSrc={assets.developer}

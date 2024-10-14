@@ -96,6 +96,7 @@
 
 .event-info a button {
     background-color: #66FF00;
+    font-size: 1.2rem;
 }
 
 .event-info a button:hover {
@@ -175,6 +176,10 @@
         font-size: 1rem;
     }
 
+    .event-info a button {
+        font-size: 1rem;
+    }
+
     .coding-header {
         justify-content: center;
         align-items: center;
@@ -191,6 +196,10 @@
         padding: 10px 25px;
         font-size: 1rem;
     }
+
+    .event-info a button {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -201,10 +210,14 @@
     
     .coding-banner button {
         padding: 10px 20px;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .coding-banner span {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .event-info a button {
+        font-size: 0.7rem;
     }
 }
