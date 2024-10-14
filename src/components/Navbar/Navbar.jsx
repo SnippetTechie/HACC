@@ -1,13 +1,14 @@
-import React from 'react'
-import './Navbar.css'
-import assets from '../../assets/assets'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import './Navbar.css';
+import assets from '../../assets/assets';
+import { Link } from 'react-router-dom';
 
-const Navbar = ({menu,setMenu}) => {
+const Navbar = ({ menu, setMenu }) => {
+  const [isChecked, setIsChecked] = useState(false); 
 
-  const handleMenuClick = (menuName) => {
-    setMenu(menuName);
-    // Additional logic to close the menu can be added here
+  const handleMenuClick = (menuOption) => {
+    setMenu(menuOption); 
+    setIsChecked(false); 
   };
 
   return (
@@ -16,7 +17,12 @@ const Navbar = ({menu,setMenu}) => {
         <img src={assets.logo} alt="HACC Logo" />
         <h1>HACC</h1>
       </div>
-      <input type="checkbox" id="check" />
+      <input 
+        type="checkbox" 
+        id="check" 
+        checked={isChecked} 
+        onChange={() => setIsChecked(!isChecked)} 
+      />
       <div className="btn_one">
         <label htmlFor="check" aria-label="Toggle navigation">
           <img src={assets.braces} alt="Menu Toggle" />
@@ -53,7 +59,7 @@ const Navbar = ({menu,setMenu}) => {
         </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
