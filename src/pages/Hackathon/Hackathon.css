@@ -62,16 +62,17 @@
     margin-left: 5px;
     width: 50%;
     min-height:195px;
-    padding: 20px;
     margin-top: -204px;
 }
+
 .events .hackathons{
     border-radius: 20px;
     text-align: center;
     max-height: 125px;
     overflow-y: scroll;
     padding: 5px;
-    border: 1px solid #1e3753;
+    border: 1px solid #2A9DF4;
+    box-shadow: 0 0 10px rgba(42, 157, 244, 0.7);
 }
 
 .hackathons::-webkit-scrollbar{
@@ -80,8 +81,9 @@
 
 .events .hackathons h1{
     border-radius: 20px;
-    color: red;
+    color: #2A9DF4;
     font-size: 25px;
+    text-shadow: 0 0 10px rgba(42, 157, 244, 0.7);
 }
 
 .events .hackathons ul{
