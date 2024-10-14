@@ -2,7 +2,7 @@ import React from 'react';
 import './CommitteeNav.css';
 
 const CommitteeNav = ({ selected, onSelect }) => {
-  const committees = ['Technical', 'Program', 'PRM', 'PE'];
+  const committees = ['Technical', 'Program', 'Marketing', 'PR_PE'];
 
   return (
     <div className="committee-nav">

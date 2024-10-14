@@ -59,8 +59,8 @@ const Team = () => {
   const committeeComponents = {
     Technical: <Technical />,
     Program: <Program />,
-    PRM: <PRM />,
-    PE: <PE />,
+    Marketing: <PRM />,
+    PR_PE: <PE />,
   };
 
   return (

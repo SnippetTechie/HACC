@@ -22,6 +22,7 @@
 .member{
     color: white;
     border-radius: 20px;
+
 }
 
 .member ul {
@@ -67,15 +68,18 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    background-color: inherit;
 }
 
 .committee {
     margin: 20px 0;
+    background-color: inherit;
 }
 
 .committee h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    background-color: inherit;
 }
 
 .executive-team {
@@ -83,6 +87,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    background-color: inherit;
     margin-bottom: 20px;
 }
 
