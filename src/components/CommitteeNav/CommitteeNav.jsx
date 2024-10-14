@@ -9,7 +9,7 @@ const CommitteeNav = ({ selected, onSelect }) => {
       {committees.map((committee) => (
         <button
           key={committee}
-          className={`nav-button ${selected === committee ? 'active' : ''}`}
+          className={`committee-nav-button ${selected === committee ? 'active' : ''}`}
           onClick={() => onSelect(committee)}
         >
           {committee}

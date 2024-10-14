@@ -1,11 +1,15 @@
-.team{
+.team {
     border: 2px solid #2A9DF4;
     border-radius: 20px;
     margin: 20px;
     padding: 20px;
     text-align: center;
-    background-color: #0a0b1e;
+    background-color: transparent;
     color: white;
+}
+
+.team * {
+    background-color: transparent;
 }
 
 .sub-team{
@@ -18,12 +22,19 @@
 .member{
     color: white;
     border-radius: 20px;
+}
 
+.member ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .member ul li{
     list-style: none;
-    display:inline;
+    display: inline-block;
+    margin: 0 5px;
 }
 
 .member ul li img{
@@ -86,15 +97,6 @@
 
     .member p{
         font-size: 15px;
-    }
-
-    .committee-nav {
-        flex-direction: column;
-    }
-
-    .nav-button {
-        margin: 10px 0;
-        width: 100%;
     }
 
     .members-container,

@@ -14,17 +14,17 @@ const Program = () => {
     },
     {
       role: 'Member',
-      name: 'P Lohith',
-      image: assets.lohith,
-      linkedin: 'https://www.linkedin.com/in/lohith-p-715899291',
-      github: 'https://github.com/Lohithp2005',
-    },
-    {
-      role: 'Member',
       name: 'Vivith Rajiv Kanchi',
       image: assets.vivith,
       linkedin: 'https://in.linkedin.com/in/vivith-rajiv-kanchi-225601285',
       github: 'https://github.com/VivithRK',
+    },
+    {
+      role: 'Member',
+      name: 'P Lohith',
+      image: assets.lohith,
+      linkedin: 'https://www.linkedin.com/in/lohith-p-715899291',
+      github: 'https://github.com/Lohithp2005',
     },
   ];
 

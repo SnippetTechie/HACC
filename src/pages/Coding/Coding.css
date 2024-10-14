@@ -15,13 +15,22 @@
     background-color: inherit;
 }
 
-.coding-header .coding-image {
+.coding-header .coding-image,
+.coding-header .coding-image-2 {
     position: absolute;
     top: 0;
-    right: 0;
     transform: scale(1.5);
-    transform-origin: top right;
     background-color: transparent;
+}
+
+.coding-header .coding-image {
+    right: 0;
+    transform-origin: top right;
+}
+
+.coding-header .coding-image-2 {
+    left: 100%;
+    transform-origin: bottom left;
 }
 
 .coding-banner {
@@ -30,35 +39,29 @@
     z-index: 2;
 }
 
-.coding-header .coding-image-2 {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    transform: scale(1.5);
-    transform-origin: bottom left;
-    background-color: transparent;
-}
-
-.coding-header button {
-    background-color: #1c7ed6;
+.coding-header button,
+.event-info a button {
     border: none;
     padding: 10px 35px;
     border-radius: 40px;
     cursor: pointer;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
     font-weight: 600;
     transition: background-color 0.3s ease;
-    color: black; 
+}
+
+.coding-header button {
+    background-color: #1c7ed6;
+    color: black;
 }
 
 .coding-header button:hover {
     background-color: #1565c0;
 }
 
-.coding-banner h1 {
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
+.coding-banner h1,
+.upcoming-contests h1 {
+    font-size: 3.5rem;
     background-color: transparent;
 }
 
@@ -81,20 +84,18 @@
 }
 
 .event-info span {
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 0 25px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     background-color: transparent;
 }
 
-.event-info a{
+.event-info a {
     border-radius: 30px;
 }
 
 .event-info a button {
     background-color: #66FF00;
-    transition: background-color 0.3s ease;
 }
 
 .event-info a button:hover {
@@ -111,8 +112,6 @@
 }
 
 .upcoming-contests h1 {
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 25px;
     color: #ffffff;
 }
@@ -144,7 +143,7 @@
     }
 
     .upcoming-contests h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .upcoming-contests .contest-card {
@@ -160,11 +159,11 @@
 
 @media (max-width: 800px) {
     .coding-banner h1 {
-        font-size: 45px;
+        font-size: 3rem;
     }
 
     .coding-banner button {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     .coding-header .coding-image,
@@ -173,7 +172,7 @@
     }
 
     .event-info span {
-        font-size: 15px;
+        font-size: 1rem;
     }
 
     .coding-header {
@@ -183,35 +182,29 @@
 }
 
 @media (max-width: 600px) {
-    .coding-banner h1 {
-        font-size: 35px;
+    .coding-banner h1,
+    .upcoming-contests h1 {
+        font-size: 2rem;
     }
     
     .coding-banner button {
         padding: 10px 25px;
-        font-size: 15px;
-    }
-
-    .upcoming-contests h1 {
-        font-size: 35px;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 500px) {
-    .coding-banner h1 {
-        font-size: 25px;
+    .coding-banner h1,
+    .upcoming-contests h1 {
+        font-size: 1.5rem;
     }
     
     .coding-banner button {
         padding: 10px 20px;
-        font-size: 12px;
+        font-size: 0.5rem;
     }
 
     .coding-banner span {
-        font-size: 12px;
-    }
-
-    .upcoming-contests h1 {
-        font-size: 25px;
+        font-size: 0.5rem;
     }
 }
