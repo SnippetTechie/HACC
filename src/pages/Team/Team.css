@@ -22,7 +22,6 @@
 .member{
     color: white;
     border-radius: 20px;
-
 }
 
 .member ul {
@@ -98,15 +97,6 @@
 
     .member p{
         font-size: 15px;
-    }
-
-    .committee-nav {
-        flex-direction: column;
-    }
-
-    .nav-button {
-        margin: 10px 0;
-        width: 100%;
     }
 
     .members-container,

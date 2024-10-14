@@ -2,10 +2,15 @@
   background-color: #1c1c1c;
   border: 1px solid #2A9DF4;
   border-radius: 15px;
-  padding: 20px;
+  padding: 15px;
   width: 200px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
 }
 
 .member:hover {
@@ -13,49 +18,194 @@
   box-shadow: 0 4px 20px rgba(42, 157, 244, 0.5);
 }
 
-.member h1 {
+.member-title h1 {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color: #ffffff;
-  background-color: inherit;
 }
 
-.member img {
+.member-info img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin: 15px 0;
 }
 
-.member p {
+.member-info p {
   font-size: 1rem;
   margin-bottom: 10px;
-  background-color: inherit;
+  font-weight: 600;
 }
 
-.member ul {
+.member-links ul {
   display: flex;
   justify-content: center;
   gap: 10px;
-  background-color: inherit;
+  padding: 0;
+  list-style-type: none;
 }
 
-.member ul li,
-.member ul li a {
+.member-links ul li,
+.member-links ul li a {
   background-color: #1c1c1c;
 }
 
-.member ul li {
+.member-links ul li {
   border: none;
 }
 
-.member ul li img {
-  width: 24px;
-  height: 24px;
-  transition: transform 0.3s;
+.member-links ul li img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.member ul li img:hover {
+.member-links ul li img:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+  .member {
+    display: grid;
+    grid-template-areas:
+      "title title"
+      "photo links"
+      "name name";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto; 
+  }
+
+  .member-title {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .member-title h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .member-info {
+    grid-area: photo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .member-info img {
+    width: 120px;
+    height: 120px;
+    margin: 15px 0;
+  }
+
+  .member-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .member-links {
+    grid-area: links;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+  }
+
+  .member-links ul {
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .member-links ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .member-links ul li img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .member-links ul li img:hover {
+    box-shadow: 0 0 20px rgba(42, 157, 244, 0.7);
+  }
+}
+
+@media (max-width: 600px) {
+  .member {
+    width: 100%;
+    max-width: 90%;
+    padding: 15px;
+    gap: 10px;
+    margin: 5px auto; 
+  }
+
+  .member-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .member-info img {
+    width: 100px;
+    height: 100px;
+    margin: 15px 0;
+  }
+
+  .member-info p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .member-links ul {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .member-links ul li img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .member {
+    width: 95%;
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .member-title h1 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .member-info img {
+    width: 70px;
+    height: 70px;
+    margin: 15px 0;
+  }
+
+  .member-info p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .member-links ul {
+    gap: 20px;
+  }
+
+  .member-links ul li img {
+    width: 30px;
+    height: 30px;
+  }
 }
