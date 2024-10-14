@@ -33,6 +33,10 @@ const Navbar = ({ menu, setMenu }) => {
       
       <div className={`navs ${isChecked ? 'active' : ''}`}>
         <ul>
+          {/* Opening Brace as Text */}
+          <li className="brace-item">
+            {'{'}
+          </li>
           
           <li 
             onClick={() => handleMenuClick("Home")} 
@@ -57,6 +61,11 @@ const Navbar = ({ menu, setMenu }) => {
             className={menu === "Team" ? "active" : ""}
           >
             <Link to="/team">Team</Link>
+          </li>
+          
+          {/* Closing Brace as Text */}
+          <li className="brace-item">
+            {'}'}
           </li>
         </ul>
       </div>

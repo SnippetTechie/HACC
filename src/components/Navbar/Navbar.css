@@ -88,7 +88,7 @@
     height: 30px;
 }
 
-@media (max-width: 650px){
+@media (max-width: 720px){
     .navbar .navs {
         display: none;
         width: 100%;
@@ -163,3 +163,17 @@
         right: 25px;
     }
 }
+
+.navbar .navs li.brace-item {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 24px;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.7),
+                 0 0 15px rgba(0, 255, 0, 0.5),
+                 0 0 20px rgba(0, 255, 0, 0.3);
+    filter: drop-shadow(0 0 5px rgba(0, 255, 0, 0.7)) drop-shadow(0 0 3px rgba(0, 255, 0, 0.5));
+    transition: text-shadow 0.3s, filter 0.3s;
+}
+
+
