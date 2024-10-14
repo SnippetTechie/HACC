@@ -26,6 +26,18 @@ const Program = () => {
       linkedin: 'https://www.linkedin.com/in/lohith-p-715899291',
       github: 'https://github.com/Lohithp2005',
     },
+    {
+      role: 'Member',
+      name: 'Sharlet Alex',
+      image: assets.sharlet,
+      linkedin: 'https://www.linkedin.com/in/sharlet-alex-267456296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+    {
+      role: 'Member',
+      name: 'Venkatesh S',
+      image: assets.venkatesh,
+      linkedin: 'https://www.linkedin.com/in/venky2211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    }
   ];
 
   return (
