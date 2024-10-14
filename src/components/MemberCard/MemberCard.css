@@ -16,7 +16,7 @@
 .member h1 {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: #2A9DF4;
+  color: #ffffff;
   background-color: inherit;
 }
 
@@ -41,19 +41,18 @@
   background-color: inherit;
 }
 
-.member ul li{
+.member ul li,
+.member ul li a {
   background-color: #1c1c1c;
-  border: none;
 }
 
-.member ul li a{
-  background-color: #1c1c1c;
+.member ul li {
+  border: none;
 }
 
 .member ul li img {
   width: 24px;
   height: 24px;
-  background-color: #1c1c1c;
   transition: transform 0.3s;
 }
 
