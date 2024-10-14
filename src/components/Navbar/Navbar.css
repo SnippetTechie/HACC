@@ -55,7 +55,7 @@
     color: rgb(177, 169, 169); 
 }
 
-.navbar .navs ul li p{
+.navbar .navs ul li label{
     display: none;
 }
 
@@ -83,7 +83,7 @@
         display: none;
     }
 
-    .navbar .navs ul li p{
+    .navbar .navs ul li label{
         display: block;
     }
 
