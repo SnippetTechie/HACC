@@ -37,8 +37,8 @@ const Team = () => {
       role: 'Secretary',
       name: 'Venkateshwar Reddy',
       image: assets.venkateshwara,
-      linkedin: 'https://www.linkedin.com/in/venkateshwar-reddy',
-      github: 'https://github.com/venkateshwar-reddy',
+      linkedin: 'https://www.linkedin.com/in/venkateshwar-reddy-b7290717b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      github: 'https://github.com/namo12345',
     },
     {
       role: 'Joint Secretary',
