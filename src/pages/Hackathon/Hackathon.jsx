@@ -19,7 +19,8 @@ const Hackathon = () => {
         <div className="hackathons">
             <h1>Upcoming Hackathons</h1>
             <ul>
-                <li><button className='date'>25 Oct</button>Logixtics Hackathon 2.0<a href='https://vision.hack2skill.com/event/uliphackathon?utm_source=hack2skill&utm_medium=homepagehackathon.mercuria.com/india-2024/'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>14 Nov</button>Amazon Smbhav<a href='https://amazonsmbhav2024.hackerearth.com/'><button className="submit">Apply</button></a></li>
+                <li><button className='date'>25 Nov</button>Unfold 2024<a href='https://bit.ly/Unfold24'><button className="submit">Apply</button></a></li>
                 <li><button className='date'>20 Feb</button>Hack Overflow 2.0<a href='https://rns-hackoverflow-2.devfolio.co/'><button className="submit">Apply</button></a></li>
             </ul>
         </div>
