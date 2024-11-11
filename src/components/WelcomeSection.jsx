@@ -6,7 +6,7 @@ const WelcomeSection = () => {
   return (
     <section className="welcome">
       <p>
-        Welcome to <span className="highlight">HAAC</span>, where creativity meets coding! Join us to build, compete, and collaborate through hackathons and coding challenges that push the limits of innovation.
+        Welcome to <span className="highlight">HACC</span>, where creativity meets coding! Join us to build, compete, and collaborate through hackathons and coding challenges that push the limits of innovation.
       </p>
       <div className="features">
         <div className="feature-item">
