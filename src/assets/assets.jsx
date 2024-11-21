@@ -53,6 +53,7 @@ import Quiz from './Quiz.png'
 import newbie from './newbie.jpeg'
 import intermediate from './intermediate.jpeg'
 import developer from './developer.jpeg'
+import Pyjam from './Pyjam.png'
 
 // Slider Images
 import img1 from './haccathon1.jpeg'
@@ -71,7 +72,7 @@ export default {
   ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita, kashyap, lohith, 
   mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, 
   monish, anjum, umaiza, vivith, venkateshwara, venkatesh, yash, 
-  codingBanner, codingBanner2, CodeClash, Quiz, newbie, intermediate, developer,
+  codingBanner, codingBanner2, CodeClash, Quiz, newbie, intermediate, developer, Pyjam,
   img1, img2, img3, img4, img5, img6, img7, img8, img9
 }
 

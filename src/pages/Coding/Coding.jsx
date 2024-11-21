@@ -27,23 +27,11 @@ const Coding = () => {
           Upcoming Contests <span>→</span>
         </h1>
         <div className="contest-card">
-          <RedirectCard
-            title="Hacc-athon 1"
+        <RedirectCard
+            title="PyJam"
             buttonText='Register'
-            registerLink='https://www.hackerrank.com/the-hacc-athon-1'
-            imageSrc={assets.newbie}
-          />
-          <RedirectCard
-            title="Hacc-athon 2"
-            buttonText='Register'
-            registerLink='https://www.hackerrank.com/the-hacc-athon-2'
-            imageSrc={assets.intermediate}
-          />
-          <RedirectCard
-            title="Hacc-athon 3"
-            buttonText='Register'
-            registerLink='https://www.hackerrank.com/the-hacc-athon-3'
-            imageSrc={assets.developer}
+            registerLink='https://forms.gle/WKGa23TSnuPxQHUX7'
+            imageSrc={assets.Pyjam}
           />
           <RedirectCard
             title="Code Clash"
