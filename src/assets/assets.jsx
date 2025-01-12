@@ -53,7 +53,18 @@ import Quiz from './Quiz.png'
 import newbie from './newbie.jpeg'
 import intermediate from './intermediate.jpeg'
 import developer from './developer.jpeg'
+import Pyjam from './Pyjam.png'
 
+// Slider Images
+import img1 from './haccathon1.jpeg'
+import img2 from './haccathon2.jpeg'
+import img3 from './haccathon3.jpeg'
+import img4 from './haccathon4.jpeg'
+import img5 from './haccathon5.jpeg'
+import img6 from './haccathon6.jpeg'
+import img7 from './haccathon7.jpeg'
+import img8 from './haccathon8.jpeg'
+import img9 from './haccathon9.jpeg'
 
 export default { 
   profile_icon, comp, logo, bg, insta, whatsapp, linkedIn, github, header, 
@@ -61,6 +72,7 @@ export default {
   ankana, anushka, chanakya, deekshitha, deepthi, gauri, harshita, kashyap, lohith, 
   mahalakshmi, mohit, pritam, rachan, rahul, rakshitha, satwik, satyam, sharlet, tarun, 
   monish, anjum, umaiza, vivith, venkateshwara, venkatesh, yash, 
-  codingBanner, codingBanner2, CodeClash, Quiz, newbie, intermediate, developer
+  codingBanner, codingBanner2, CodeClash, Quiz, newbie, intermediate, developer, Pyjam,
+  img1, img2, img3, img4, img5, img6, img7, img8, img9
 }
 
