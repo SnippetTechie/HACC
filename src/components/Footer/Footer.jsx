@@ -3,6 +3,8 @@ import './Footer.css'
 import assets from '../../assets/assets'
 
 const Footer = () => {
+
+  let currentYear = new Date().getFullYear();
   return (
     <div className="footer">
     <div className='footer-content'>
@@ -31,7 +33,7 @@ const Footer = () => {
     </div>
     <hr />
     <div className="cr">
-        <p>2024 HACC. ALL RIGHTS RESERVED</p>
+        <p>{currentYear} HACC. ALL RIGHTS RESERVED</p>
     </div>
     </div>
   )
