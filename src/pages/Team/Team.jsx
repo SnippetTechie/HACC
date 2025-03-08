@@ -14,13 +14,6 @@ const Team = () => {
   const executiveMembers = [
     {
       role: 'President',
-      name: 'T S Anjum Kausar',
-      image: assets.anjum,
-      linkedin: 'https://www.linkedin.com/in/ts-anjum-kausar-303b49270/',
-      github: 'https://github.com/tsanjumkausar',
-    },
-    {
-      role: 'Vice President',
       name: 'M Rahul Sagayaraj',
       image: assets.rahul,
       linkedin: 'https://www.linkedin.com/in/m-rahul-sagayaraj-870756281',
