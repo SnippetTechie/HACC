@@ -19,6 +19,7 @@ const Hackathon = () => {
         <div className="hackathons">
             <h1>Upcoming Hackathons</h1>
             <ul>
+                <li><button className='date'>24 Sept</button>Hacc-IT 2.0<a href='https://hacc-it-2-0.vercel.app/'><button className="submit">Apply</button></a></li>
                 <li><button className='date'>13 Mar</button>HaccVerse'25<a href='https://haccverse.hacc.co.in'><button className="submit">Apply</button></a></li>
                 <li><button className='date'>29 Mar</button>AceHack 4.0<a href='https://acehack.uem.edu.in'><button className="submit">Apply</button></a></li>
             </ul>
